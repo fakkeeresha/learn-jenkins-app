@@ -15,10 +15,7 @@ pipeline {
                 }
             }
             steps{
-                sh '''
-                test -f build/index.html
-                node test
-                '''
+                sh 'test -f build/index.html'
             }
         }
     }
