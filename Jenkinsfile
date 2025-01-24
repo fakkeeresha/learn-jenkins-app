@@ -16,7 +16,7 @@ pipeline {
             }
             steps{
                 sh 'ls -la src'
-                sh 'test -f src/App.cs'
+                sh 'test -f src/App.css'
             }
         }
     }
