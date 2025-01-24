@@ -15,6 +15,7 @@ pipeline {
                 }
             }
             steps{
+                sh 'ls -la build'
                 sh 'test -f build/index.html'
             }
         }
