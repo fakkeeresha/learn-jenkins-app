@@ -15,8 +15,8 @@ pipeline {
                 }
             }
             steps{
-                sh 'ls -la build'
-                sh 'test -f build/index.html'
+                sh 'ls -la src'
+                sh 'test -f src/App.cs'
             }
         }
     }
